@@ -14,7 +14,7 @@ export default function Filter() {
     dispatch(contactsActions.changeFilter(e.target.value));
 
   return (
-    <div className={s.InputOverlay}>
+    <div className={s.FilterOverlay}>
       <label htmlFor={filterInputId} className={s.FilterLabel}>
         Find contacts by name
       </label>
